@@ -1,5 +1,35 @@
 # QxQ-Quantum-Computing-Capstone-Projects
 
+## Description
+This repository contains capstone projects related to Quantum Computing, specifically focusing on quantum encryption techniques such as BB84 protocol.
+
+## Tech Stack
+- Python (for implementing the BB84 protocol and AES encryption)
+- Jupyter Notebooks (for data analysis and experimentation)
+
+## Usage
+The repository includes a single Jupyter Notebook file: `BB84_Eves_Intercept_and_Resend_Attack_AES256.ipynb`. This notebook contains code for simulating an eavesdropping attack using the BB84 protocol in conjunction with AES encryption. The project also discusses the importance of robust encryption and security measures, particularly in a quantum computing environment.
+
+### Contents
+- `BB84_Eves_Intercept_and_Resend_Attack_AES256.ipynb`: Contains Python code for simulating an eavesdropping attack using the BB84 protocol with AES encryption. 
+
+## Analysis
+The project highlights the importance of strong encryption and meticulous verification processes to ensure data security in a quantum computing context. It also underscores the need for robust security measures, such as quantum key distribution (QKD), to detect and prevent interception attempts.
+
+### Key Points
+- **BB84 Protocol**: A method used to observe eavesdropping activities by monitoring anomalies in the quantum bit error rate (QBER).
+- **AES Encryption**: Used due to its balance of security, efficiency, and flexibility.
+- **Intercept and Resend Attack Strategy**: Implemented to detect potential eavesdroppers based on QBER changes.
+- **Security Measures**: Emphasizes the importance of using robust encryption algorithms, proper key management, regular audits, user training, and post-quantum cryptography.
+
+## Conclusion
+The development of quantum encryption is crucial for securing future communications against emerging threats from quantum computing. Traditional cryptographic systems are vulnerable to quantum computers' potential to break them easily, whereas quantum encryption leverages principles like entanglement and superposition to create uncrackable encryption methods that ensure the confidentiality and integrity of transmitted data.
+
+As the digital landscape evolves and the risk of quantum attacks increases, the advancement of quantum encryption technologies is not only important but essential for safeguarding sensitive information across various sectors.
+
+
+# QxQ-Quantum-Computing-Capstone-Projects
+
 INTRODUCTION 
 
 In the development of this encryption project in Python, the selection of a robust and efficient encryption algorithm was prioritized. Initially, the Vernam Cipher was experimented with, but its application proved impractical for large texts due to the excessive size of the resulting cipher. For this reason, AES encryption was chosen, which allows variable length keys (16, 24 or 32 bytes), taking advantage of the flexibility and security it offers. 
